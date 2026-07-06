@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0.5%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.disimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+
+}
+.row{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    /* gap: 10px; */
+    
+
+}
+.rightCol{
+    width: 65%;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+}
+.desceiption{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 90px;
+    margin: auto;
+    
+}
+.btn{
+    display: block;
+    margin: 20px auto;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px 0 10px 0;
+    background-color: chocolate;
+    
+}
+.btn:hover{
+    font-size: 20px;
+}
