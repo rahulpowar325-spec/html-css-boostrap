@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Cardsection{
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.heading{
+
+    padding: 10px;
+    text-align: center;
+    background-color: brown;
+
+
+
+}
+.card{
+    width: 16rem;
+    height: 400px;
+    border: 3px solid black;
+
+}
+.card img{
+    width: 100%;
+
+    margin: 1%;
+    padding:1%;
+}
+.card h3{
+    text-align: center;
+
+    margin: 1%;
+    padding:1%;
+}
+.description{
+    font-size: 15px;
+    margin: 3px;
+    padding:3px;
+}
+.pricetag{
+    margin: 3px;
+    padding:3px;
+}
+.addcard-btn{
+    margin: 5px;
+    
+    background-color: yellow;
+    padding: 7px 15px;
+    font-weight: 300;
+    border-radius: 3px
+
+}
+.addcard-btn:hover{
+    background-color: bisque;
+     color: rgb(0, 0, 0);
+    
+     
+}
+.buycard-btn{
+    margin: 5px;
+    
+    background-color: rgb(228, 228, 228);
+    padding: 7px 15px;
+    font-weight: 300;
+    border-radius: 3px
+
+}
+.buycard-btn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+@media screen and  (max-width:450px){
+    .card{
+        flex: 0 0 250px;
+       
+    }
+    .Cardsection{
+        /* width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction :row;
+        justify-content: space-around; */
+
+        display: flex;
+        gap: 0px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+        width: 0p;
+    
+     }
+    
+}
