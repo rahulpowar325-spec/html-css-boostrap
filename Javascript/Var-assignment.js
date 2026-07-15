@@ -13,3 +13,4 @@ let favriateAnimal ={
 };
 console.log(favriateAnimal);
 console.log("your ang :" ,favriateAnimal.age);
+
