@@ -1,30 +1,15 @@
+// shoping descount
 let Amount =120;
 if(Amount>100){
    let finalAmount = Amount-(Amount*10)/100;
-//    console.log(finalAmount);
+   console.log(finalAmount);
    
    console.log((Amount*10)/100);
-   
 }
 else{
     console.log(Amount);
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
