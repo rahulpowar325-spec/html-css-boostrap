@@ -1,30 +1,30 @@
-// function greet(){
-//  console.log("hello wold");
+function greet(){
+ console.log("hello wold");
 
      
-// }
-// greet()
+}
+greet()
 
-// function greetUser (name,age)
-// {
-//     console.log("hello", name ,"!", "youer age is",age);
+function greetUser (name,age)
+{
+    console.log("hello", name ,"!", "youer age is",age);
 
     
-// }
-// greetUser("piyush",20)
+}
+greetUser("piyush",20)
 
-// function add(a,b){
-//     return a+b
-// }
-// addition=add(10,20)
-// console.log(addition);
+function add(a,b){
+    return a+b
+}
+addition=add(10,20)
+console.log(addition);
 
-// greet2=()=>console.log("hello")
+greet2=()=>console.log("hello")
 
-// addition1=(x,y)=>{
-//     add=x+y
-//     return add
-// }
+addition1=(x,y)=>{
+    add=x+y
+    return add
+}
 
 function multiplicationTable(num)
 {

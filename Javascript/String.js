@@ -5,8 +5,8 @@ console.log(name);
 
 console.log(name.length);  //str.length
 
-console.log(name.charAt(0)); //index 
-console.log(name[2]);
+console.log(name.charAt(6)); //index 
+console.log(name[2]); // same work
 
 console.log(name.toUpperCase());  //letter 
 console.log(name.toLowerCase());
@@ -56,16 +56,14 @@ strr2= strr.replace('hoe' ,'hello')
 console.log(strr2);
 console.log(strr);
 
-
-
 strr3= "just do it, it dosen't mater "
 console.log(strr3.replaceAll("it","its" ));
+
 
 // .split)()
 fruits = 'apple bannana mango orenge'
 fruitsArrey = fruits.split()
 fruitsArrey = fruits.split(' ')
-
 console.log(fruitsArrey);
 
 
