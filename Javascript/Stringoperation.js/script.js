@@ -8,42 +8,49 @@ function convertToUpperCase(){
 
 }
 
-function CheckPalindrom(){
-   const inputValue = inputElement.value;
-
-    reverseSTR ="";
-    for(let i=inputValue.length-1; i>=0; i--){
-        reverseSTR=reverseSTR+inputValue[i]
-
-    }
-     console.log(reverseSTR);
-     if(inputValue == reverseSTR){
-        console.log("******");
-        outputText = "it is palinrom"
-
-        
-     }else{
-        outputText="it not palindrom"
-     }
-     resultElement.textContent=outputText
-}   
-
-function countVowel(){
+function convertToLowerCase(){
     const inputValue = inputElement.value
-    count=0
+    outputText = inputValue.toLowerCase()
+    resultElement.textContent =outputText
 
-    vowels='aeiouAEIOU'
-    len=inputValue.length
+}
 
-    for(let i=o ; i<len ; i++){
-        inputValue[i] //inputValue.charAt(i)
+function CheckPalindrom() {
+    const inputValue = inputElement.value;
 
-        if(vowels.includes(inputValue[i])){
-            count++
+    let reverseSTR = "";
+    let outputText = "";
+
+    for (let i = inputValue.length - 1; i >= 0; i--) {
+        reverseSTR = reverseSTR + inputValue[i];
+    }
+
+    console.log(reverseSTR);
+
+    if (inputValue === reverseSTR) {
+        outputText = "It is Palindrome";
+    } else {
+        outputText = "It is not Palindrome";
+    }
+
+    resultElement.textContent = outputText;
+}
+
+function countVowel() {
+    const inputValue = inputElement.value;
+
+    let count = 0;
+    let vowels = "aeiouAEIOU";
+    let len = inputValue.length;
+
+    for (let i = 0; i < len; i++) {
+
+        if (vowels.includes(inputValue[i])) {
+            count++;
         }
     }
-     resultElement.textContent="vowels count :"+ count
-}   
 
+    resultElement.textContent = "Vowels Count: " + count;
+}
 
 
